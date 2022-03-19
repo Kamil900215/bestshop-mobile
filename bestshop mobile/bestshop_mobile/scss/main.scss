@@ -1,16 +1,7 @@
-@import "./generic/reset";
-@import "./settings/colors";
-@import "./elements/base";
-@import "./elements/header";
 @import "mixins";
-
-.welcome{
-  height: calc(100vh - 4em);
-  display: flex;
-  justify-content: center;
-  text-align: center ;
-  h1{
-    font-family: $font-raleway;
-    font-weight: normal;
-  }
-}
+@import "generic/reset";
+@import "settings/all";
+@import "settings/colors";
+@import "elements/header";
+@import "elements/welcome";
+@import "elements/statistics";

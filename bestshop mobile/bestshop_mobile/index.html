@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,28 +14,38 @@
     <title>Document</title>
 </head>
 <body>
-<header>
+<header class="container header__content">
     <div class="logo">BestShop</div>
-<nav><i class="fa-solid fa-bars"></i></nav>
+    <nav>
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" class="hamburger__toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="menu">
+            <li class="menu__item menu__item--active">why us</li>
+            <li class="menu__item">benefits</li>
+            <li class="menu__item">prices</li>
+            <li class="menu__item ">contact</li>
+        </ul>
+    </nav>
 </header>
-
-
-
-
-
-
-
-
-
-
-
 <section class="welcome">
-    <div class="welcome-title">
-        <h1>Sell More!</h1>
-        <p>Open shop on our platform and increase your sales</p>
-        <a href="#"><button>Open your shop</button></a>
-    </div>
+<div class="welcome__text">
+    <h2>Sell More!</h2>
+    <p>Open shop on our platform and increase your sales</p>
+</div>
+    <a href="#" class="button__basic">Open your shop</a>
+    <a href="#" class="button big__button"></a>
+    <img src="./images/Background.png" alt="" class="background__image">
 </section>
 
+<section class="stats">
+    <h2>The most popular sales platform in country</h2>
+    <div class="circle">
+
+    </div>
+</section>
 </body>
 </html>

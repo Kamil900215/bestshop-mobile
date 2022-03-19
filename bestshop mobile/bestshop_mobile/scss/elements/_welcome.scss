@@ -1,0 +1,49 @@
+@import "../mixins";
+.welcome{
+  overflow: hidden;
+  //height: 100vh; dlaczego jak to ustawię to przycisk robi się brzydki?
+  height: calc(100vh - 5em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .welcome__text{
+    text-align: center;
+    margin-top: 6.25em;
+    max-width: 15.25em;
+    @include desktop{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h2{
+      @include releway(2.1875em, black, 0, 400);
+      margin-bottom: 1.25em;
+    }
+    p{
+      @include opensans(1em, black, 0);
+      margin-bottom: 1.75em;
+    }
+  }
+}
+.button__basic{
+  @include button(19.375em, 4.1875em, $primary-color, 40em, 0);
+  @include releway(1em, white, 0, 700);
+  box-shadow: 5px 10px 14px #07ACE629;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  @include desktop{
+    width: 27.5em;
+    max-height: 5em;
+    //@include button(27.5em, 5em, $primary-color, 40em, 0);
+  }
+}
+.background__image{
+  @include desktop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}

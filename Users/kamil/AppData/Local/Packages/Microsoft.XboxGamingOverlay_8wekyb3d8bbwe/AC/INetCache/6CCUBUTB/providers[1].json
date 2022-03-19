@@ -1,0 +1,60 @@
+[
+  {
+    "networkName": "Steam",
+    "displayName": "Steam",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/steam.png",
+    "color": "#007db0",
+    "friendFindingSupported": true,
+    "showOnProfileSupported": true,
+    "recommendationType": "SteamFriend"
+  },
+  {
+    "networkName": "Facebook",
+    "displayName": "Facebook",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/facebook.png",
+    "color": "#3c5a99",
+    "friendFindingSupported": true,
+    "showOnProfileSupported": false,
+    "recommendationType": "FacebookFriend"
+  },
+  {
+    "networkName": "Twitch",
+    "displayName": "Twitch",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/twitch_v2.png",
+    "color": "#9146FF",
+    "friendFindingSupported": false,
+    "showOnProfileSupported": true
+  },
+  {
+    "networkName": "Twitter",
+    "displayName": "Twitter",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/twitter_v2.png",
+    "color": "#007cbf",
+    "friendFindingSupported": false,
+    "showOnProfileSupported": true
+  },
+  {
+    "networkName": "Discord",
+    "displayName": "Discord",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/discord_v2.png",
+    "color": "#5865f2",
+    "friendFindingSupported": false,
+    "showOnProfileSupported": true
+  },
+  {
+    "networkName": "Reddit",
+    "displayName": "Reddit",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/reddit.png",
+    "color": "#db3c00",
+    "friendFindingSupported": false,
+    "showOnProfileSupported": true
+  },
+  {
+    "networkName": "YouTube",
+    "displayName": "YouTube",
+    "iconUri": "https://dlassets-ssl.xboxlive.com/public/content/social/linking/assets/youtube.png",
+    "color": "#ed0000",
+    "friendFindingSupported": false,
+    "showOnProfileSupported": true
+  }
+]
